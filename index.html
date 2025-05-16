@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/efe1c6d265.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
     <title>myBooklist-App</title>
 </head>
 <body>
@@ -15,25 +15,25 @@
         </h1>
         <form id="book-form">
             <div class="form-group">
-                <label for="title">Title: </label>
+                <label for="title" class="text-primary">Title: </label>
                 <input type="text" id="title" class="form-control">
             </div>
             <div class="form-group">
-                <label for="author">Author: </label>
+                <label for="author" class="text-primary">Author: </label>
                 <input type="text" id="author" class="form-control">
             </div>
             <div class="form-group">
-                <label for="isbn">ISBN#: </label>
+                <label for="isbn" class="text-primary">ISBN#: </label>
                 <input type="text" id="isbn" class="form-control">
             </div>
             <input type="submit" value="Add Book" class="btn btn-primary w-100 mt-3" >
         </form>
-        <table class="table table-head mt-4">
+        <table class="table table-striped mt-4">
             <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>ISBN#</th>
+                    <th class="text-primary">Title</th>
+                    <th class="text-primary">Author</th>
+                    <th class="text-primary">ISBN#</th>
                     <th></th>
                 </tr>
             </thead>
